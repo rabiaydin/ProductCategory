@@ -162,17 +162,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="category.cs">
+    <Compile Include="Forms\category.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="category.Designer.cs">
+    <Compile Include="Forms\category.Designer.cs">
       <DependentUpon>category.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\BookStoreDbContext.cs" />
-    <Compile Include="mainpage.cs">
+    <Compile Include="Forms\mainpage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mainpage.Designer.cs">
+    <Compile Include="Forms\mainpage.Designer.cs">
       <DependentUpon>mainpage.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\20210125231904_initial.cs" />
@@ -188,10 +188,10 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs" />
-    <Compile Include="product.cs">
+    <Compile Include="Forms\product.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="product.Designer.cs">
+    <Compile Include="Forms\product.Designer.cs">
       <DependentUpon>product.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -199,16 +199,16 @@
     <Compile Include="Services\CategoryBusiness.cs" />
     <Compile Include="Services\LoginBusiness.cs" />
     <Compile Include="Services\ProductBusiness.cs" />
-    <EmbeddedResource Include="category.resx">
+    <EmbeddedResource Include="Forms\category.resx">
       <DependentUpon>category.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mainpage.resx">
+    <EmbeddedResource Include="Forms\mainpage.resx">
       <DependentUpon>mainpage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="product.resx">
+    <EmbeddedResource Include="Forms\product.resx">
       <DependentUpon>product.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
